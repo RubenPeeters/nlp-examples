@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "categorization"
+version = "0.1.0"
+description = ""
+authors = ["Ruben Peeters <40251899+RubenPeeters@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.2"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
